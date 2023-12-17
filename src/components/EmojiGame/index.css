@@ -1,0 +1,33 @@
+/* Write your code here. */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.game-container {
+  background-image: linear-gradient(140deg, #9796f0 5%, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  height: 90vh;
+}
+
+.emoji-card-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 0%;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 70vw;
+  }
+}
